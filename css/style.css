@@ -1,0 +1,54 @@
+.background-window{	
+	position:relative;
+	height:500px;	
+	width:1000px;			
+	margin:0 auto;
+}
+
+.obstacle{
+	position:absolute;
+	height:20px;
+	width:20px;
+	background:green;	
+}
+
+.player{
+	position:absolute;	
+	left:10px;
+	bottom:40px;
+}
+
+.score ,.banner-score{
+	color:green;
+	font-size: 30px;
+	font-weight:bold;	
+	text-align: center;
+	margin-top: 10px;
+}
+
+.banner {
+	background:white;		
+	width:500px;
+	height:150px;
+	text-align:center;	
+	position:absolute;
+	left:250px;
+	top:30px;
+	display:none;
+}
+.game{
+	margin:0;
+	padding:0;
+	font-size: 40px;
+	font-weight:bold;
+	color:red;
+	margin-bottom:10px;
+}
+
+.banner button{
+	width:100px;
+	height:25px;
+	background:grey;
+	color:white;	
+	cursor:pointer;
+}
